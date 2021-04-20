@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:background="@color/white"
+        app:title="My chat" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="308dp"
+        android:layout_height="106dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/send"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="265dp"
+            android:layout_height="48dp"
+            android:text="  Hi Leo , Whats up ?? \n  I need a new logo for group . \n   "
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:src="@drawable/watsaaap" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="22:30"
+        android:layout_marginRight="30dp"
+        android:textSize="15sp" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="78dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/send"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:text="Simple , minimal and beauti.."
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:src="@drawable/watsaaap" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginRight="30dp"
+        android:text="22:31" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="84dp"
+        android:layout_gravity="start"
+        android:layout_marginLeft="18dp"
+        android:background="@drawable/resev"
+        android:padding="22dp"
+        android:text="Ok , I'll start next week . \nsend me documents today ."
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginLeft="18dp"
+        android:text="22:32" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/send"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="190dp"
+            android:layout_height="30dp"
+            android:text=" Oh,That's great 😍 "
+            android:textSize="18sp"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:src="@drawable/watsaaap" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginRight="30dp"
+        android:text="22:33" />
+
+    <LinearLayout
+        android:layout_width="316dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="125dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/anysend">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_baseline_insert_emoticon_24" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_animation_24" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_btn_speak_now" />
+
+
+
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
